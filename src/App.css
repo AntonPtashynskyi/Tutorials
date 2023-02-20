@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.scroll {
+  min-height: 2000px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.block {
+  margin-top: 400px;
+  background-color: teal;
+  padding: 40px;
+}
+
+.header {
+  color: #555555;
+  transition: all 250ms ease-in;
+}
+
+.header.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  padding: 20px;
+  list-style: none;
 }
