@@ -1,12 +1,12 @@
-import "./App.css";
-import { Scroll } from "./components/Scroll";
-import { Nav } from "./components/Nav";
+import { Example } from "./components/Example";
+import { Example2 } from "./components/Example2";
+import "./app.css";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Scroll />
+      {/* <Example /> */}
+      <Example2 />
     </div>
   );
 }
